@@ -7,7 +7,7 @@ let saturn = {
   size: "36,184 mi" ,
   distance: "888.2 million mi",
   atmosphere: "Hydrogen and helium",
-  satellites: "Mimas, Enceladus, Tethys, Dione, Rhea, Titan, Hyperion, Iapetus, Phoebe, Janus, Epimetheus, Helene, Telesto, Calypso, Atlas, Prometheus, Pandora, Pan, Ymir, Paaliaq, Tarvos, Ijiraq, Suttungr, Kiviuq, Mundilfari, Albiorix, Skathi, Erriapus, Siarnaq, Thrymr, Narvi, Methone, Pallene, Polydeuces, Daphnis, Aegir, Bebhionn, Bergelmir, Bestla, Farbauti, Fenrir, Fornjot, Hati, Hyrrokkin, Kari, Loge, Skoll, Surtur, Anthe, Jarnsaxa, Greip, Tarqeq, Aegaeon and 9 more unnamed",
+  satellites: "62 known including: Mimas, Enceladus, Tethys, Dione, Rhea, Titan and Hyperion",
   probes: "Pioneer 11, Voyager 1 and 2 and Cassini"
 };
 
@@ -16,7 +16,7 @@ let planetString = `<div class="planetCard">
                         <h1>Saturn</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${saturn.discovery}<br>
+                        <div class="discovery">Year Discovered: ${saturn.discovery}</div><br>
                         <img src="${saturn.img}"><br>
                         Mass: ${saturn.mass}<br>
                         Size: Radius of ${saturn.size}<br>

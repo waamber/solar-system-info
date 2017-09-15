@@ -17,7 +17,7 @@ let planetString = `<div class="planetCard">
                         <h1>Earth</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${earth.discovery}<br>
+                        <div class="discovery">Year Discovered: ${earth.discovery}</div><br>
                         <img src="${earth.img}"><br>
                         Mass: ${earth.mass}<br>
                         Size: Radius of ${earth.size}<br>
@@ -44,7 +44,7 @@ let jupiter = {
   size: "43,441 mi" ,
   distance: "483.8 million mi",
   atmosphere: "Hydrogen, helium, methane and ammonia",
-  satellites: "69 known - Io, Europa, Ganymede, Callisto, Amalthea, Himalia, Elara, Pasiphae, Sinope, Lysithea, Carme, Ananke, Leda, Thebe, Adrastea, Metis, Callirrhoe, Themisto, Megaclite, Taygete, Chaldene, Harpalyke, Kalyke, Iocaste, Erinome, Isonoe, Praxidike, Autonoe, Thyone, Hermippe, Aitne, Eurydome, Euanthe, Euporie, Orthosie, Sponde, Kale, Pasithee, Hegemone, Mneme, Aoede, Thelxinoe, Arche, Kallichore, Helike, Carpo, Eukelade, Cyllene, Kore, Herse, Dia and 18 more unnamed",
+  satellites: "69 known including: Io, Europa, Ganymede, Callisto, Amalthea, Himalia, Elara, Pasiphae",
   probes: "Pioneer 10 and 11, Voyager 1 and 2, Ulysses, Galileo, Cassini, New Horizons and Juno"
 };
 
@@ -53,7 +53,7 @@ let planetString = `<div class="planetCard">
                         <h1>Jupiter</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${jupiter.discovery}<br>
+                        <div class="discovery">Year Discovered: ${jupiter.discovery}</div><br>
                         <img src="${jupiter.img}"><br>
                         Mass: ${jupiter.mass}<br>
                         Size: Radius of ${jupiter.size}<br>
@@ -114,7 +114,7 @@ let planetString = `<div class="planetCard">
                         <h1>Mars</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${mars.discovery}<br>
+                        <div class="discovery">Year Discovered: ${mars.discovery}</div><br>
                         <img src="${mars.img}"><br>
                         Mass: ${mars.mass}<br>
                         Size: Radius of ${mars.size}<br>
@@ -150,7 +150,7 @@ let planetString = `<div class="planetCard">
                         <h1>Mercury</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${mercury.discovery}<br>
+                        <div class="discovery">Year Discovered: ${mercury.discovery}</div><br>
                         <img src="${mercury.img}"><br>
                         Mass: ${mercury.mass}<br>
                         Size: Radius of ${mercury.size}<br>
@@ -186,7 +186,7 @@ let planetString = `<div class="planetCard">
                         <h1>Neptune</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${neptune.discovery}<br>
+                        <div class="discovery">Year Discovered: ${neptune.discovery}</div><br>
                         <img src="${neptune.img}"><br>
                         Mass: ${neptune.mass}<br>
                         Size: Radius of ${neptune.size}<br>
@@ -213,7 +213,7 @@ let saturn = {
   size: "36,184 mi" ,
   distance: "888.2 million mi",
   atmosphere: "Hydrogen and helium",
-  satellites: "Mimas, Enceladus, Tethys, Dione, Rhea, Titan, Hyperion, Iapetus, Phoebe, Janus, Epimetheus, Helene, Telesto, Calypso, Atlas, Prometheus, Pandora, Pan, Ymir, Paaliaq, Tarvos, Ijiraq, Suttungr, Kiviuq, Mundilfari, Albiorix, Skathi, Erriapus, Siarnaq, Thrymr, Narvi, Methone, Pallene, Polydeuces, Daphnis, Aegir, Bebhionn, Bergelmir, Bestla, Farbauti, Fenrir, Fornjot, Hati, Hyrrokkin, Kari, Loge, Skoll, Surtur, Anthe, Jarnsaxa, Greip, Tarqeq, Aegaeon and 9 more unnamed",
+  satellites: "62 known including: Mimas, Enceladus, Tethys, Dione, Rhea, Titan and Hyperion",
   probes: "Pioneer 11, Voyager 1 and 2 and Cassini"
 };
 
@@ -222,7 +222,7 @@ let planetString = `<div class="planetCard">
                         <h1>Saturn</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${saturn.discovery}<br>
+                        <div class="discovery">Year Discovered: ${saturn.discovery}</div><br>
                         <img src="${saturn.img}"><br>
                         Mass: ${saturn.mass}<br>
                         Size: Radius of ${saturn.size}<br>
@@ -267,7 +267,7 @@ let uranus = {
   size: "15,759 mi" ,
   distance: "1.784 billion mi",
   atmosphere: "Hydrogen, helium and methane",
-  satellites: "27 known - Ariel, Umbriel, Titania, Oberon, Miranda, Cordelia, Ophelia, Bianca, Cressida, Desdemona, Juliet, Portia, Rosalind, Belinda, Puck, Caliban, Sycorax, Prospero, Setebos, Stephano, Trinculo, Francisco, Margaret, Ferdinand, Perdita, Mab and Cupid",
+  satellites: "27 known inlcuding: Ariel, Umbriel, Titania, Oberon, Miranda, Cordelia, Ophelia and Bianca",
   probes: "Voyager 2"
 };
 
@@ -276,7 +276,7 @@ let planetString = `<div class="planetCard">
                         <h1>Uranus</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${uranus.discovery}<br>
+                        <div class="discovery">Year Discovered: ${uranus.discovery}</div><br>
                         <img src="${uranus.img}"><br>
                         Mass: ${uranus.mass}<br>
                         Size: Radius of ${uranus.size}<br>
@@ -312,7 +312,7 @@ let planetString = `<div class="planetCard">
                         <h1>Venus</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${venus.discovery}<br>
+                        <div class="discovery">Year Discovered: ${venus.discovery}</div><br>
                         <img src="${venus.img}"><br>
                         Mass: ${venus.mass}<br>
                         Size: Radius of ${venus.size}<br>
