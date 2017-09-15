@@ -16,7 +16,7 @@ let planetString = `<div class="planetCard">
                         <h1>Venus</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${venus.discovery}<br>
+                        <div class="discovery">Year Discovered: ${venus.discovery}</div><br>
                         <img src="${venus.img}"><br>
                         Mass: ${venus.mass}<br>
                         Size: Radius of ${venus.size}<br>

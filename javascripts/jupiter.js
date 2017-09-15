@@ -7,7 +7,7 @@ let jupiter = {
   size: "43,441 mi" ,
   distance: "483.8 million mi",
   atmosphere: "Hydrogen, helium, methane and ammonia",
-  satellites: "69 known - Io, Europa, Ganymede, Callisto, Amalthea, Himalia, Elara, Pasiphae, Sinope, Lysithea, Carme, Ananke, Leda, Thebe, Adrastea, Metis, Callirrhoe, Themisto, Megaclite, Taygete, Chaldene, Harpalyke, Kalyke, Iocaste, Erinome, Isonoe, Praxidike, Autonoe, Thyone, Hermippe, Aitne, Eurydome, Euanthe, Euporie, Orthosie, Sponde, Kale, Pasithee, Hegemone, Mneme, Aoede, Thelxinoe, Arche, Kallichore, Helike, Carpo, Eukelade, Cyllene, Kore, Herse, Dia and 18 more unnamed",
+  satellites: "69 known including: Io, Europa, Ganymede, Callisto, Amalthea, Himalia, Elara, Pasiphae",
   probes: "Pioneer 10 and 11, Voyager 1 and 2, Ulysses, Galileo, Cassini, New Horizons and Juno"
 };
 
@@ -16,7 +16,7 @@ let planetString = `<div class="planetCard">
                         <h1>Jupiter</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${jupiter.discovery}<br>
+                        <div class="discovery">Year Discovered: ${jupiter.discovery}</div><br>
                         <img src="${jupiter.img}"><br>
                         Mass: ${jupiter.mass}<br>
                         Size: Radius of ${jupiter.size}<br>

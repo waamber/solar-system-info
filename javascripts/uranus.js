@@ -7,7 +7,7 @@ let uranus = {
   size: "15,759 mi" ,
   distance: "1.784 billion mi",
   atmosphere: "Hydrogen, helium and methane",
-  satellites: "27 known - Ariel, Umbriel, Titania, Oberon, Miranda, Cordelia, Ophelia, Bianca, Cressida, Desdemona, Juliet, Portia, Rosalind, Belinda, Puck, Caliban, Sycorax, Prospero, Setebos, Stephano, Trinculo, Francisco, Margaret, Ferdinand, Perdita, Mab and Cupid",
+  satellites: "27 known inlcuding: Ariel, Umbriel, Titania, Oberon, Miranda, Cordelia, Ophelia and Bianca",
   probes: "Voyager 2"
 };
 
@@ -16,7 +16,7 @@ let planetString = `<div class="planetCard">
                         <h1>Uranus</h1>
                       </div>
                       <div class="planetContent">
-                        Year Discovered: ${uranus.discovery}<br>
+                        <div class="discovery">Year Discovered: ${uranus.discovery}</div><br>
                         <img src="${uranus.img}"><br>
                         Mass: ${uranus.mass}<br>
                         Size: Radius of ${uranus.size}<br>
